@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #250057; */
+    background-color: rgb(222, 199, 199);
+}
+
+.enter{
+   height: 450px;
+   width: 350px;
+   background-color: whitesmoke;
+   text-align: center;
+   display: inline-block;
+   /* justify-content: center; */
+   /* align-items: center; */
+   margin-left: 500px;
+   margin-top: 120px;
+   border-radius: 5px;
+   border: 1px solid black;
+   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-top: 20px;
+    color: black;
+    text-decoration: underline black;
+    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+    0px -4px 10px rgba(255,255,255,0.3);
+}
+
+
+#name{
+    padding: 12px;
+    width: 320px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    font-weight: bold;
+
+}
+
+
+
+
+#email{
+    padding: 12px;
+    width: 320px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    font-weight: bold;
+
+}
+
+#userName{
+    padding: 12px;
+    width: 320px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    font-weight: bold;
+
+}
+
+#Num{
+    padding: 12px;
+    width: 320px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    font-weight: bold;
+}
+
+
+
+#password{
+    padding: 12px;
+    width: 320px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    font-weight: bold;
+}
+
+
+/* button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+} */
+
+button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: black;
+    color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+  }
+  
+  button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+  }
+  
+  button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+  
+
+img{
+    position: absolute;
+    width: 25px;
+    margin-top: -55px;
+    margin-left: 190px;
+}
